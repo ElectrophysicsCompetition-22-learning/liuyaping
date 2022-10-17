@@ -1,0 +1,3 @@
+﻿  mianji.c
+C:\Users\86156\Desktop\C_Learning\Project3\Project3\mianji.c(8,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  Project3.vcxproj -> C:\Users\86156\Desktop\C_Learning\Project3\x64\Debug\Project3.exe

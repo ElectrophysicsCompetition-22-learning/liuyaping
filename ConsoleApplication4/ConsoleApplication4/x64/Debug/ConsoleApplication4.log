@@ -1,0 +1,5 @@
+﻿  ConsoleApplication4.cpp
+  源.cpp
+  正在生成代码...
+源.obj : error LNK2005: main 已经在 ConsoleApplication4.obj 中定义
+C:\Users\86156\Desktop\C_Learning\ConsoleApplication4\x64\Debug\ConsoleApplication4.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
