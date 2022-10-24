@@ -3,13 +3,15 @@ int main()
 {
 	char ch;
 	ch=getchar();
-	while(ch!='#')
+	for(ch=getchar();;)
 	{
-		if((ch<='Z')&&(ch>='A')||(ch<='z')&&(ch>='a'))
-		printf("为字母");
+	    if((ch<='Z')&&(ch>='A')||(ch<='z')&&(ch>='a'))
+	    printf("为字母",ch);	
 		else if((ch>='0')&&(ch<='9'))
-		printf("为数字");
-		else printf("为其他\n"); 
-	}
-	printf("\n");
+		printf("为数字",ch);
+		else if(ch='#') break;
+		else printf("为其他",ch); 
+    printf("\n");
+}
+	return 0;
 }
